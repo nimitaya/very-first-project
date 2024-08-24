@@ -1,0 +1,60 @@
+header {
+    font-family: Orbitron, Tahoma, sans-serif;
+    background-image: linear-gradient(to top, rgba(43, 12, 51, 0.9) 50%, rgba(39, 3, 20, 0.9) 100%);
+    border-radius: 0.8em;
+    margin-top: 1em;
+    text-align: center;
+}
+
+header img {
+    max-width: 100%;
+}
+
+nav {
+    background-color: rgba(244, 202, 252, 0.149);
+    backdrop-filter: blur(10px);
+    box-shadow: 2px 2px 15px #120914;
+    max-width: 1000px;
+    border-radius: 1em;
+    margin: 5px auto;
+    padding: 5px 0px;
+}
+
+header li {
+    display: inline-block;
+    text-align: center;
+}
+header ul {
+    text-align: left;
+}
+/* damit links nicht zu viel Lücke ist */
+
+header li>a {
+    display: inline-block;
+    border: medium solid #9947AD;
+    background-color: #F4CAFC;
+    box-shadow: 2px 2px 5px #9947AD;
+    border-radius: 3em;
+    width: 180px;
+    padding: 7px;
+}
+header a:link {
+    text-decoration: none;
+    color: #9947AD;
+}
+header a:visited {
+    text-decoration: none;
+    color: #B50054;
+}
+
+header a:hover {
+    color: #9947AD;
+}
+
+header li>a:hover {
+    background-color: #2B0C33;
+}
+
+header h3 {
+    padding-bottom: 20px;
+}

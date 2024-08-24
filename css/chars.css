@@ -1,0 +1,49 @@
+ .oben {
+    display: inline-block;
+    vertical-align: text-bottom;
+}
+/* Bild neben h2 und p */
+
+.kleinbild {
+    width: 200px;
+    margin-left: 50%;
+    border-radius: 1em;
+    box-shadow: 2px 2px 15px rgb(43, 12, 51);
+}
+
+.tabelle {
+    display: inline-block;
+    width: 45%;
+    vertical-align: middle;
+    margin: 0px 0px;
+}
+
+tr {
+    vertical-align: text-top;
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgba(244, 202, 252, 0.04);
+}
+/* jede zweite (gerade) Zeile etwas heller, für bessere Lesbarkeit */
+
+th {
+    text-align: right;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+
+.char-bildchen {
+    height: 210px;
+    border-radius: 1em;
+    box-shadow: 2px 2px 15px rgb(43, 12, 51);
+}
+
+.char-bildchen:hover {
+    transform: scale(1.5)
+}
+
+section aside {
+    text-align: center;
+}
+/* kann ich rausnehmen, wenn aside nicht mehr in section steht */

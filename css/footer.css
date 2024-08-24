@@ -1,0 +1,52 @@
+footer {
+    font-family: Orbitron, Tahoma, sans-serif;
+    color: #19071d;
+    background-image: linear-gradient(to bottom, rgba(43, 12, 51, 0.9) 50%, rgba(39, 3, 20, 0.9) 100%);
+    border-radius: 0.8em;
+    margin-top: 1em;
+    padding: 10px;
+    font-size: 1em;
+}
+
+footer section {
+    background-color: rgba(244, 202, 252, 0.149);
+    backdrop-filter: blur(10px);
+    box-shadow: 2px 2px 15px #120914;
+    border-radius: 1em;
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px 0px;
+    width: 380px;
+}
+
+footer section:last-of-type {
+    text-align: right;
+    position: relative;
+    left: 3%;
+}
+/* Text rechtsbündig und Box nach rechts packen, sodass ca. mittig */
+
+footer figure {
+    padding-left: 2%;
+}
+footer img {
+    width: 100px;
+}
+
+footer ul {
+    padding-right: 30px;
+    list-style: none;
+}
+
+footer a:link {
+    text-decoration: none;
+    color: #F4CAFC;
+}
+footer a:visited {
+    text-decoration: none;
+    color: #9947AD;
+}
+
+footer a:hover {
+    color: #B50054;
+}

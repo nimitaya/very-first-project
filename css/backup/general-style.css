@@ -1,0 +1,126 @@
+/* Farbcodes */
+/* lila dunkel nach hell: #2B0C33 , #9947AD , #F4CAFC */
+/* rot dunkel nach hell: #B50054 , #FF3E41 */
+
+@font-face {
+    font-family: Orbitron;
+    src: url(../fonts/Orbitron/Orbitron-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Oswald;
+    src: url(../fonts/Oswald/Oswald-VariableFont_wght.ttf);
+}
+* { 
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../bilder/hintergrund-swtor-screen.png);
+    background-size:cover;
+    max-width: 1200px;
+    margin: auto;
+    background-attachment: fixed;
+}
+
+main {
+    font-family: Oswald, Verdana, sans-serif;
+    color: #F4CAFC;
+    background-color: rgba(43, 12, 51, 0.9);
+    border-radius: 0.8em;
+    /* für abgerundete Ecken */
+    padding: 1px 0px;
+}
+
+h1, h2, h3 {
+    color: #9947AD;
+}
+main h2, h3, figcaption {
+    font-family: Orbitron, Tahoma, sans-serif;
+}
+main h2 {
+    display: inline-block;
+}
+.einr1 {
+    margin-right: 70%;
+}
+.einr2 {
+    margin-right: 55%;
+}
+/* zum Einrücken der Logos in den Sectionen */
+
+main section {
+    background-color: rgba(244, 202, 252, 0.149);
+    backdrop-filter: blur(10px);
+    /* zum blurren von dem, was dahinter ist*/
+    box-shadow: 2px 2px 15px #120914;
+    max-width: 1000px;
+    border-radius: 1em;
+    margin: 30px auto;
+    padding: 20px 50px;
+}
+
+main p {
+    font-size: 1.1em;
+}
+
+main section:last-of-type h2 {
+    display: block;
+    /* damit Bilder unter der Überschrift stehen */
+}
+
+.kleineBilder {
+    width: 80px;
+    vertical-align: bottom;
+    left: 20%;
+}
+
+.gefolge {
+    width: 420px;
+    vertical-align: top;
+    margin: 0px 0px 0px 2%;
+    box-shadow: 2px 2px 10px rgb(43, 12, 51);
+    border-radius: 1em;
+}
+
+figure {
+    display: inline-block;
+}
+
+.char-bilder {
+    width: 200px;
+    box-shadow: 2px 2px 10px rgb(43, 12, 51);
+    border-radius: 1em;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: #F4CAFC;
+    margin: 30px 0px;
+}
+
+aside {
+    max-width: 1000px;
+    margin: auto
+}
+
+aside p {
+    font-size: 0.8em;
+}
+
+main a:link {
+    text-decoration: none;
+    color: #9947AD;
+}
+main a:visited {
+    text-decoration: none;
+    color: #19071d;
+}
+main a:hover {
+    color: #B50054;
+}
+
+p::selection, a::selection, h1::selection, h2::selection, h3::selection, li::selection, figure::selection, img::selection, figcaption::selection, th::selection, td::selection {
+    background-color: #B50054;
+}
+/* für wenn man mit der Maus text markiert */
