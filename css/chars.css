@@ -1,4 +1,4 @@
- .oben {
+.oben {
     display: inline-block;
     vertical-align: text-bottom;
 }
@@ -13,7 +13,7 @@
 
 .tabelle {
     display: inline-block;
-    width: 45%;
+    max-width: 75%;
     vertical-align: middle;
     margin: 0px 0px;
 }
@@ -47,3 +47,10 @@ section aside {
     text-align: center;
 }
 /* kann ich rausnehmen, wenn aside nicht mehr in section steht */
+
+/* ---------- Media Queries ---------- */
+@media (min-width: 1000px) {
+    .tabelle {
+        max-width: 45%;
+    }
+}

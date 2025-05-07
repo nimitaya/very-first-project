@@ -43,7 +43,10 @@ main h2 {
 
 .einr {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
 }
 /* zum Einrücken der Logos in den Sectionen und generell gleichmäßigen Abstand*/
 
@@ -73,7 +76,7 @@ main section:last-of-type h2 {
 }
 
 .gefolge {
-    width: 420px;
+    max-width: 420px;
     box-shadow: 2px 2px 10px rgb(43, 12, 51);
     border-radius: 1em;
 }
@@ -83,7 +86,7 @@ figure {
 }
 
 .char-bilder {
-    width: 200px;
+    max-width: 200px;
     box-shadow: 2px 2px 10px rgb(43, 12, 51);
     border-radius: 1em;
 }
@@ -124,4 +127,19 @@ p::selection, a::selection, h1::selection, h2::selection, h3::selection, li::sel
 div {
     max-width: 1000px;
     margin: auto;
+}
+
+/* ---------- Media Queries ---------- */
+@media (max-width: 500px) {
+    .gefolge {
+        width: 300px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .einr {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }
